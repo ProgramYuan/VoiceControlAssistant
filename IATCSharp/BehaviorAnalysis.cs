@@ -66,6 +66,18 @@ namespace WpfIATCSharp
                             }
                         }
                         break;
+                    case "PLAY":
+                        {
+                            string service = getSingleNode(recResult, "service");
+                            switch(service)
+                            {
+                                case "music":
+                                    Kugou kugou = new Kugou();
+                                    kugou.Show();
+                                    break;
+                            }
+                        }
+                        break;
                 }
 
                 //TTS tts = new TTS();
