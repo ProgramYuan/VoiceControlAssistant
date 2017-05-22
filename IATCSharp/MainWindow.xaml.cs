@@ -3,17 +3,9 @@ using NAudio.Wave;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Diagnostics;
-using System.IO;
 using System.IO.MemoryMappedFiles;
-using System.IO.Pipes;
 using System.Linq;
-using System.Media;
-using System.Security.Principal;
-using System.Threading;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Media;
 using VoiceRecorder.Audio;
 
 namespace WpfIATCSharp
